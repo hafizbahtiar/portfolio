@@ -37,7 +37,7 @@ export class AppComponent {
     {
       icon: 'fas fa-mobile-alt',
       title: 'Mobile App Development',
-      description: 'I craft **high-performance, cross-platform mobile applications** using modern frameworks. From elegant user interfaces to robust backend integrations, I build apps that deliver seamless user experiences on both iOS and Android.',
+      description: `I craft <strong>high-performance, cross-platform mobile applications</strong> using modern frameworks. From elegant user interfaces to robust backend integrations, I build apps that deliver seamless user experiences on both iOS and Android.`,
       techList: [
         { icon: 'fab fa-dev', name: 'Flutter' },
         { icon: 'fab fa-dev', name: 'Dart' },
@@ -48,7 +48,7 @@ export class AppComponent {
     {
       icon: 'fas fa-server',
       title: 'Robust Backend Solutions',
-      description: 'I build **scalable and secure server-side applications** that power complex web and mobile platforms. My focus is on creating efficient APIs, managing databases, and ensuring the stability and performance of your application\'s core.',
+      description: `I build <strong>scalable and secure server-side applications</strong> that power complex web and mobile platforms. My focus is on creating efficient APIs, managing databases, and ensuring the stability and performance of your application's core.`,
       techList: [
         { icon: 'fab fa-node-js', name: 'Node.js & Express' },
         { icon: 'fas fa-database', name: 'MongoDB' },
@@ -59,18 +59,18 @@ export class AppComponent {
     {
       icon: 'fas fa-globe',
       title: 'Dynamic Web Development',
-      description: 'I develop **modern, responsive web applications** that are both visually appealing and highly functional. From front-end user interfaces to robust back-end systems, I deliver comprehensive web solutions tailored to your business goals.',
+      description: `I develop <strong>modern, responsive web applications</strong> that are both visually appealing and highly functional. From front-end user interfaces to robust back-end systems, I deliver comprehensive web solutions tailored to your business goals.`,
       techList: [
+        { icon: 'fab fa-angular', name: 'Angular' },
         { icon: 'fab fa-laravel', name: 'Laravel (PHP)' },
         { icon: 'fas fa-code', name: 'CodeIgniter 3 & 4' },
-        { icon: 'fab fa-js-square', name: 'JavaScript & jQuery' },
-        { icon: 'fab fa-bootstrap', name: 'Bootstrap & Responsive Design' }
+        { icon: 'fab fa-js-square', name: 'JavaScript & TypeScript' },
       ]
     },
     {
       icon: 'fas fa-database',
       title: 'Database Design & Optimization',
-      description: 'I specialize in designing **efficient and well-structured databases** to ensure optimal performance and data integrity for your applications. This includes schema design, query optimization, and data migration.',
+      description: `I specialize in designing <strong>efficient and well-structured databases</strong> to ensure optimal performance and data integrity for your applications. This includes schema design, query optimization, and data migration.`,
       techList: [
         { icon: 'fas fa-server', name: 'SQL (PostgreSQL, MySQL)' },
         { icon: 'fas fa-leaf', name: 'NoSQL (MongoDB)' },
@@ -81,10 +81,11 @@ export class AppComponent {
     {
       icon: 'fas fa-plug',
       title: 'API Development & Integration',
-      description: 'I build and integrate **robust RESTful APIs** that enable seamless communication between different applications and services. This ensures your platforms can interact efficiently and extend their functionality.',
+      description: `I build and integrate <strong>robust RESTful APIs</strong> that enable seamless communication between different applications and services. This ensures your platforms can interact efficiently and extend their functionality.`,
       techList: [
         { icon: 'fas fa-code-branch', name: 'RESTful API Design' },
         { icon: 'fab fa-node-js', name: 'Node.js APIs' },
+        { icon: 'fab fa-angular', name: 'Angular Services' },
         { icon: 'fab fa-laravel', name: 'Laravel APIs' },
         { icon: 'fas fa-hands-helping', name: 'Third-Party Integrations' }
       ]
@@ -135,8 +136,7 @@ export class AppComponent {
       description: 'A client-facing web application that enables users to conveniently order a variety of services, such as cash-in-transit, through a streamlined and user-friendly interface.',
       techTags: ['CodeIgniter 4', 'PostgreSQL', 'Postman', 'RESTful API', 'Docker'],
       links: [
-        { icon: 'fas fa-external-link-alt', href: '#', title: 'View Project' },
-        { icon: 'fab fa-github', href: '#', title: 'View on GitHub' }
+        { icon: 'fas fa-external-link-alt', href:  'https://fasttrack.securiforce.net/', title: 'View Project' },
       ]
     }
   ];
